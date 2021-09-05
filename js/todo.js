@@ -50,7 +50,6 @@ function handleToDoSubmit(event) {
 toDoForm.addEventListener('submit', handleToDoSubmit);
 
 const savedTodos = localStorage.getItem(TODOS_KEY);
-console.log(savedTodos);
 if (savedTodos !== null) {
   const parsedToDos = JSON.parse(savedTodos);
   // parsedToDos.forEach(sayHello); // 위와 같이 사용한 "sayHello" 함수, 대신 아래 화살표 함수로 축약할수 있다
