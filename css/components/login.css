@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+#login-form input {
+  width: 80%;
+}
+
 #login-form input,
 #login-form button {
   font-size: 3rem;
@@ -24,10 +28,6 @@
   box-shadow: 2rem 2rem 4rem -1rem white;
   border-radius: 1.5rem;
   padding: 0.5rem 2rem;
-}
-
-#login-form input{
-wid
 }
 
 #login-form,
