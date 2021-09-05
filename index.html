@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Momentum App</title>
+  </head>
+  <body class="body">
+    <nav>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <main class="main">
+      <section class="clock_dia">
+        <div class="clock">
+          <div class="clock-face">
+            <div class="circle"></div>
+            <div class="hand hour-hand"></div>
+            <div class="hand min-hand"></div>
+            <div class="hand sec-hand"></div>
+          </div>
+        </div>
+        <div class="clock_box">
+          <h2 class="clock_digit">00:00:00</h2>
+        </div>
+      </section>
+      <article class="quote_box">
+        <div class="quote">
+          <span></span>
+          <span></span>
+        </div>
+      </article>
+      <section class="login">
+        <form class="hidden" id="login-form">
+          <input require maxlength="15" type="text" placeholder="What is your name?" />
+          <button type="submit" value="Log In">Log In</button>
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+      </section>
+      <section class="todo">
+        <form id="todo-form" action="">
+          <input type="text" placeholder="Write a To Do and Press Enter" />
+        </form>
+        <ul id="todo-list"></ul>
+      </section>
+    </main>
+
+    <script src="./js/clock.js"></script>
+    <script src="./js/clockdia.js"></script>
+    <script src="./js/greeting.js"></script>
+    <script src="./js/qoutes.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/weather.js"></script>
+  </body>
+</html>

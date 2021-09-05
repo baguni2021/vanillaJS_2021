@@ -1,0 +1,8 @@
+#weather {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.6rem;
+  padding: 1.8rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}

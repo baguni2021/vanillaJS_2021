@@ -1,0 +1,50 @@
+.login {
+  position: absolute;
+  top: 10%;
+  left: 6%;
+  width: 30%;
+  height: 500px;
+  z-index: 10;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#login-form {
+  text-align: center;
+}
+
+#login-form input,
+#login-form button {
+  font-size: 3rem;
+  border: none;
+  box-shadow: 2rem 2rem 4rem -1rem white;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2rem;
+}
+#login-form,
+#login-form input::placeholder {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#login-form input {
+  text-align: center;
+}
+
+#login-form input:focus::placeholder {
+  color: transparent;
+}
+
+#login-form button {
+  background-color: tomato;
+  margin-top: 2rem;
+}
+
+#greeting {
+  display: inline-block;
+  white-space: nowrap;
+}

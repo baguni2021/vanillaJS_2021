@@ -1,0 +1,18 @@
+.clock_box {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+
+.clock_digit {
+  position: absolute;
+  margin: 0 auto;
+  font-size: 3.5rem;
+  color: white;
+}

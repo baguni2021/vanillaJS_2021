@@ -1,0 +1,46 @@
+.todo {
+  position: absolute;
+  top: 10%;
+  right: 6%;
+  width: 30%;
+  height: 500px;
+  z-index: 10;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+#todo-form input {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  border: none;
+  box-shadow: 2rem 2rem 4rem -1rem white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+}
+
+#todo-form,
+#todo-form input::placeholder {
+  font-size: 1.5rem;
+}
+
+#todo-form input:focus::placeholder {
+  color: transparent;
+}
+
+.todo ul {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+.todo li button {
+  font-size: large;
+  vertical-align: 20%;
+}
