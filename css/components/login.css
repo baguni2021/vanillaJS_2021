@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+#login-form input {
+  width: 80%;
+}
+
 #login-form input,
 #login-form button {
   font-size: 3rem;
@@ -40,8 +44,9 @@
 }
 
 #login-form button {
-  background-color: tomato;
+  background-color: blue;
   margin-top: 2rem;
+  color: white;
 }
 
 #greeting {
