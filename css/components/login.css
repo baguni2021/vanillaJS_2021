@@ -13,12 +13,12 @@
   color: white;
 }
 
-#login-form {
-  text-align: center;
-}
-
 #login-form input {
   width: 80%;
+}
+
+#login-form {
+  text-align: center;
 }
 
 #login-form input,
